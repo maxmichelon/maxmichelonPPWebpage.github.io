@@ -1,150 +1,169 @@
 <!DOCTYPE HTML>
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			p {
-				white-space: normal;
-			}
-		</style>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Massively by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        p {
+            white-space: normal;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .projects article {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            background: #fff;
+        }
+		.about {
+            padding: 2rem 1rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Max Michelon<br />
-						Portfolio</h1>
-						<p> <br /> University of Oregon Data Science 2024 Graduate <br /><a href="https://html5up.net/license"> Skilled in Python, SQL, Tableau, Excel, and proficient in C and C++</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Max Michelon<br />
+                Portfolio</h1>
+            <p> <br /> University of Oregon Data Science 2024 Graduate <br /><a href="https://html5up.net/license"> Skilled in Python, SQL, Tableau, Excel, and proficient in C and C++</a>.</p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Max The Data Scientist</a>
-					</header>
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Max The Data Scientist</a>
+        </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/max-michelon021/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Projects</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/max-michelon021/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Main -->
+        <div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date"><!-- Enter date --></span>
-									<h2><a href="#">Wellbeing Dataset Analysis and ML Modeling<br />
-									</a></h2>
-									<p>Utilized Python to analyze and model the wellbeing Kaggle dataset comprising over 16,000 samples. Conducted data cleaning, built and trained multiple ML models, and evaluated their performance. Project conducted as part of the DSCI 372M course.
-									</p>
-								</header>
-								<a href="#" class="image main"><img src="images/WellbeingLifestyle.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/tree/main/Wellbeing%20and%20Lifestyle%20Project" class="button large">Full Project</a></li>
-								</ul>
-							</article>
+			<section id="about" class="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Max Michelon, a passionate Data Science graduate from the University of Oregon, class of 2024. My expertise lies in Python, SQL, Tableau, and Excel, with a good understanding of C and C++. My journey in data science has equipped me with strong analytical and problem-solving skills, which I have applied in various projects focusing on machine learning, data visualization, and data cleaning. I am a very curious persion which has led me to love continuously learning about data science as well as an eagerness to solve real-world problems through data-driven insights.</p>
+            </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date"> <!-- Enter date --> </span> 
-										<h2><a href="#">Flight Delay Prediction using Logistic Regression<br />
-										</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/flightdelays.png" alt="" /></a>
-									<p> Implemented logistic regression techniques to predict flight delays based on measurable flight characteristics. Project conducted as part of the DSCI 311 course.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/blob/main/Project%202%3A%20Logistic%20Regression%20and%20Classification/Flight_Delays_Restructored.ipynb" class="button">Full Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="#">Business Data Visualization with Tableau<br />
-										</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Tableau.png" alt="" /></a>
-									<p>Produced two Tableau Dashboards using general business data such as business ID, sales, region, state, product line, description, margin %, profit, etc.</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/max.michelon8732/vizzes" class="button">Dashboards</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="#">Food Safety:<br />
-										Cleaning and Exploring Data with Pandas</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/foodsafety.png" alt="" /></a>
-									<p>Applied Pandas for data cleaning and exploration in a project focused on food safety analysis. Project conducted as part of the DSCI 311 course.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/blob/main/Project%3A%20Food%20Safety/project1.ipynb" class="button">Full Project</a></li>
-									</ul>
-								</article>
-							</section>
+            <!-- Projects -->
+            <section class="projects">
+                <article>
+                    <header>
+                        <span class="date"> <!-- Enter date --> </span> 
+                        <h2><a href="#">Wellbeing Dataset Analysis and ML Modeling<br /></a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/WellbeingLifestyle.png" alt="" /></a>
+                    <p>Utilized Python to analyze and model the wellbeing Kaggle dataset comprising over 16,000 samples. Conducted data cleaning, built and trained multiple ML models, and evaluated their performance. Project conducted as part of the DSCI 372M course.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/tree/main/Wellbeing%20and%20Lifestyle%20Project" class="button">Full Project</a></li>
+                    </ul>
+                </article>
 
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Portland, OR, United States <br />
-								</p>
-							</section>
-							<section>
-								<h3></h3>
-								<p><a href="#"></a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">michelonmax@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/max-michelon021/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/tree/main" class="icon brands alt fa-github-"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+                <article>
+                    <header>
+                        <span class="date"> <!-- Enter date --> </span> 
+                        <h2><a href="#">Flight Delay Prediction using Logistic Regression<br /></a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/flightdelays.png" alt="" /></a>
+                    <p> Implemented logistic regression techniques to predict flight delays based on measurable flight characteristics. Project conducted as part of the DSCI 311 course.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/blob/main/Project%202%3A%20Logistic%20Regression%20and%20Classification/Flight_Delays_Restructored.ipynb" class="button">Full Project</a></li>
+                    </ul>
+                </article>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+                <article>
+                    <header>
+                        <span class="date"></span>
+                        <h2><a href="#">Business Data Visualization with Tableau<br /></a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/Tableau.png" alt="" /></a>
+                    <p>Produced two Tableau Dashboards using general business data such as business ID, sales, region, state, product line, description, margin %, profit, etc.</p>
+                    <ul class="actions special">
+                        <li><a href="https://public.tableau.com/app/profile/max.michelon8732/vizzes" class="button">Dashboards</a></li>
+                    </ul>
+                </article>
 
-			</div>
+                <article>
+                    <header>
+                        <span class="date"></span>
+                        <h2><a href="#">Food Safety:<br />
+                            Cleaning and Exploring Data with Pandas</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/foodsafety.png" alt="" /></a>
+                    <p>Applied Pandas for data cleaning and exploration in a project focused on food safety analysis. Project conducted as part of the DSCI 311 course.</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/blob/main/Project%3A%20Food%20Safety/project1.ipynb" class="button">Full Project</a></li>
+                    </ul>
+                </article>
+            </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+            <!-- Contact -->
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Location</h3>
+                    <p>Portland, OR, United States <br /></p>
+                </section>
+                <section>
+                    <h3></h3>
+                    <p><a href="#"></a></p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="#">michelonmax@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="https://www.linkedin.com/in/max-michelon021/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://github.com/maxmichelon/DS-Project-Portfolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
 
-	</body>
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>

@@ -15,6 +15,13 @@
         p {
             white-space: normal;
         }
+        body {
+            background-image: url('Images/other_background_PP.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -31,7 +38,17 @@
             background-color: #f9f9f9;
             border-radius: 8px;
             margin: 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
         }
+        .about img {
+            max-width: 200px;
+            margin-right: 2rem;
+            border-radius: 50%;
+        }
+       
+        
     </style>
 </head>
 <body class="is-preload">
@@ -57,7 +74,10 @@
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li class="active"><a href="index.html">Projects</a></li>
+                <!-- Added About button that scrolls to About section -->
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <!-- <li class="active"><a href="index.html">Projects</a></li> --> 
             </ul>
             <ul class="icons">
                 <li><a href="https://www.linkedin.com/in/max-michelon021/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -68,14 +88,19 @@
         <!-- Main -->
         <div id="main">
 
+            <!-- About -->
 			<section id="about" class="about">
-                <h2>About Me</h2>
-                <p>Hello! I'm Max Michelon, a passionate Data Science graduate from the University of Oregon, class of 2024. My expertise lies in Python, SQL, Tableau, and Excel, with a good understanding of C and C++. My journey in data science has equipped me with strong analytical and problem-solving skills, which I have applied in various projects focusing on machine learning, data visualization, and data cleaning. I am a very curious persion which has led me to love continuously learning about data science as well as an eagerness to solve real-world problems through data-driven insights.</p>
+                <img src="images/Linkedin_profile_photo.jpeg" alt="Max Michelon" />
+                <div>
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Max Michelon, a Data Science graduate from the University of Oregon, class of 2024. My expertise lies in Python, SQL, Tableau, and Excel, with a good understanding of C and C++. My journey in data science has equipped me with strong analytical and problem-solving skills, which I have applied in various projects focusing on machine learning, data visualization, and data cleaning.</p>
+                    <p>I am a very curious person which has led me to love continuously learning about data science as well as an eagerness to solve real-world problems through data-driven insights. When I'm not working on data projects, I enjoy basketball, working out, reading, and being outdoors.</p>
+                </div>
             </section>
 
             <!-- Projects -->
-            <section class="projects">
-				
+            <section id="projects" class="projects">
+
 				<article>
                     <header>
                         <span class="date"> <!-- Enter date --> </span> 
